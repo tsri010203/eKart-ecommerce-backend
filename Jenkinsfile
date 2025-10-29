@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         EC2_USER = 'ubuntu'
-        EC2_HOST = '172.31.24.1'
+        EC2_HOST = '172.31.22.94'
         PEM_KEY = '/var/lib/jenkins/.ssh/jenfile'   // your EC2 PEM file
         JAR_NAME = 'ekart-ecommerce-backend-0.0.1-SNAPSHOT.jar'
     }
